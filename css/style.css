@@ -1304,6 +1304,15 @@ footer.style3 .flickrgallery ul li a
     border: #abadb3 solid 1px;
 }
 
+h5.order.btn.btn-primary {
+text-align: center;
+}
+
+.widget-contact {
+padding: 6px 45px 10px 45px;
+background: rgba(226, 220, 224, 0.15);
+border-radius: 2px;
+}
 
 /*--------------------
 Copyrights =========*/
