@@ -1,17 +1,11 @@
 (function ($) {
     "use strict";
 
-    ///////////////////////////////////////////////////// Your
-    var venueAddress = "Grand Place, 1000, Brussels"; // Venue
-    /////////////////////////////////////////////////// Adress
-
     var fn = {
 
         // Launch Functions
         Launch: function () {
             fn.MenuSticky();
-            fn.MainSlider();
-            fn.MainSliderAlign();
             fn.Navigation();
             fn.Apps();
         },
@@ -50,21 +44,7 @@
 
 
 
-        // Main FlexSlider
-        MainSlider: function () {
-            $(window).load(function () {
-                $('.main-slider').flexslider({
-                    noCSS: true,
-                    touch: false,
-                    controlNav: false,
-                    directionNav: false,
-                    animation: "fade",
-                    start: function () {
-                        $('#preloader').addClass('ready');
-                    }
-                });
-            });
-        },
+      
 
 
 
@@ -100,20 +80,5 @@
     });
 
 
-
-        // Register / Login
-$(document).ready(function () {
-        $('.alert').delay(2000).fadeIn(300);
-
-$('.fa-times-circle').click(function(){
-   $(this).parent('.alert').fadeOut(300);
-});
-
-$('.switch').click(function(){
-   $(this).children('i').toggleClass('fa-pencil');
-   $('.login').animate({height: "toggle", opacity: "toggle"}, "slow");
-   $('.register').animate({height: "toggle", opacity: "toggle"}, "slow");
-});
-});
 
 })(jQuery);
