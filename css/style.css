@@ -58,7 +58,7 @@ hr{
 .title-start{
     margin-top: -40px;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .title-start h2 {
@@ -287,10 +287,10 @@ header{
 }
 
 .content {
-  margin-top: 125px;
+  margin-top: 60px;
   position: relative;
-    padding: 0 15px;
-    z-index: 50;
+  padding: 0 15px;
+  z-index: 50;
 }
 
 .content section {
@@ -685,7 +685,9 @@ ul.team-ist {
 color: black;
 cursor: pointer;
   }
-
+.team-menu{
+  margin-bottom: 60px;
+} 
 p.name-member {
   background: rgb(197, 239, 247);
   text-align: center;
@@ -713,22 +715,14 @@ p.name-member {
     height: 172px;
   }
  .timeline {
-    list-style: none;
-    padding: 10px 0;
-    position: relative;
-    font-weight: 300;
-    /*background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZWVlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");
-*/}
-/*.timeline:before {
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    content:" ";
-    width: 2px;
-    background: #ffffff;
-    left: 50%;
-    margin-left: -1.5px;
-}*/
+  top: 35px;
+  list-style: none;
+  padding: 10px 0;
+  position: relative;
+  margin-bottom: -32px;
+  font-weight: 300;
+}
+
 .timeline > li {
     margin-bottom: 20px;
     position: relative;
@@ -937,8 +931,15 @@ li{
   list-style: none;
 }
 
-/* Pricing Table */
+  .schedule-menu{
+    margin-top: 5px;
+  }
 
+/* Pricing Table */
+.events-menu {
+  margin-top: -34px;
+  margin-bottom: 45px;
+}
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,700);
 * {
@@ -975,7 +976,7 @@ strong {
 
 .wrap {
   width: 900px;
-  margin: 10px auto;
+  margin: 15px auto;
   color: #607d8b;
   box-shadow: 1px 1px 10px #424242;
 }
